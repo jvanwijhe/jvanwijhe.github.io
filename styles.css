@@ -1,0 +1,67 @@
+body {
+  color: #657b83;
+  font-family: monaco;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+div.terminal {
+  background-color: #fdf6e3;
+  border-color: #93a1a1;
+  border-radius: 0px 0px 5px 5px;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-width: 1px;
+  width: 650px;
+  height: 480px;
+}
+
+div.terminal-content {
+  padding: 20px;
+}
+
+div.terminal-header {
+  border-radius: 5px 5px 0px 0px;
+  border-style: solid;
+  border-width: 1px;
+  height: 15px;
+  width: 650px;
+  background-color: #073642;
+}
+
+header {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+ul.terminal-projects {
+  list-style: none;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: #268bd2;
+}
+
+a.links {
+  color: #d33682;
+}
+
+p.arrows::first-letter {
+  color: #2aa198;  
+}
+
+span.tech {
+  color: #d33682;
+}
+
